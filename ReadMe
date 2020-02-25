@@ -1,0 +1,17 @@
+Stock control application based on the below criteria
+*****************************************************************************************************
+ Situation: 
+You are creating an application to assist a new store with its stock! It only has a few products to start off with, but they want to keep track of what they have (lest they do a dreaded Sunday morning Stock take! D:)
+
+Task:
+
+    Write a console application that will report to the user the current stock amount for the item they are inquiring about.
+    Data is provided (attached) in the form of an CSV document that your application will need to read to give the stock amount. Columns are in order: itemId, itemName, itemStockAmount.
+    Helpful commands will be things like:
+        StockApp.exe -help => Show a list of command options
+        StockApp.exe -view [itemId] => Shows the name of the item with that itemId
+        StockApp.exe -stock [itemId] => Shows the amount of items in stock for that itemId
+
+If you have extra time, consider updating -stock to accept an item name in place of the itemId (assume that product names are always unique). 
+
+Note: The app does not need to be left running. If you build it, you should be able to run StockApp.exe ... from a command prompt pointing to your project's bin/Debug or Release folder.
