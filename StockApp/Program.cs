@@ -22,7 +22,7 @@ namespace StockApp
             while (!reader.EndOfStream)
             {
                 
-                var line = reader.ReadLine(); //not exactly sure why we use var here. Need to read up on Var
+                var line = reader.ReadLine();
                 var values = line.Split(',');
 
                 listA.Add(values[0]); //first value in the line gets added to listA. So listA contains all the IDs
